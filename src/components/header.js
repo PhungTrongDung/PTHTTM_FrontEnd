@@ -1,10 +1,6 @@
 import React from "react";
-import { BrowserRouter, Routes } from 'react-router-dom';
-import { Outlet, Link } from "react-router-dom";
-
-import Introduce from './introduce';
-import AudioBook from './audioBook';
-import TruyenAudio from './truyenAudio';
+// import { BrowserRouter, Routes } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 import './header.css';
 
