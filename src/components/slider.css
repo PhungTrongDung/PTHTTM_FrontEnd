@@ -1,0 +1,29 @@
+@import url('./main.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+#slider {
+    position: relative;
+    margin-top: 50px;
+    padding-top: 50%;
+    background-color: grey;
+    background: url('./assets/image/banner.jpg') top center / cover no-repeat;
+}
+
+#slider .text-content {
+    position: absolute;
+    bottom: 55%;
+    left: 65%;
+    color: black;
+}
+
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 65px;
+}
+
+#slider .text-description {
+    font-size: 25px;
+    margin-top: 25px;
+    text-shadow: 0 0 1px black;
+}

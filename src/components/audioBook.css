@@ -1,0 +1,84 @@
+@import url('./main.css');
+@import url('./header.css');
+@import url('./slider.css');
+@import url('./footer.css');
+
+#content {
+    /* height: 20000px; */
+}
+
+#content .content-section {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 64px 0 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+#content #contact {
+    padding: 64px 0 5px;
+}
+
+#content #introduce {
+    width: 100%;
+    color: black;
+}
+
+#content .audio-content {
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 64px 0 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
+
+#content #listBook {
+    padding: 0 0 112px;
+}
+
+#content .section-heading {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+#content .section-sub-heading {
+    font-size: 15px;
+    margin-top: 25px;
+    font-style: italic;
+    opacity: 0.6;
+    text-align: center;
+}
+
+#content .about-text {
+    font-size: 15px;
+    margin-top: 25px;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#content .book-list {
+    margin-top: 10px;
+}
+
+#content .book-item {
+    float: left;
+    width: calc(100% / 3);
+    text-align: center;
+}
+
+#content .book-name {
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+#content .book-img {
+    width: 154px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
